@@ -11,9 +11,10 @@ You need a Java JDK 7 or later to run the build. You can run the build like this
 You can run the app with:
 
     ./gradlew npm_start
-    Or
-    ============================
-    your app.js does not contain the code that makes the server actually listen on port 3000. That’s why PM2 shows it "online" but nothing is running on the port.
+   
+##### Or
+============================
+your app.js does not contain the code that makes the server actually listen on port 3000. That’s why PM2 shows it "online" but nothing is running on the port.
 
 Let’s fix it:
 
